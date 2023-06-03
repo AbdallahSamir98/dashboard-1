@@ -1,0 +1,133 @@
+/* 
+.fa-solid{
+  font-size: 15px;
+  margin-right: 3px;
+}
+a , a:hover{
+  text-decoration: none;
+  color: white;
+}
+ul{
+  list-style: none;
+}
+@media (max-width: 480px) {
+    body {
+      padding-left: 0px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    body {
+      padding-left: 0px;
+    }
+  }
+  @media (max-width: 1024px) {
+    body {
+      padding-left: 0px;
+    }
+  } */ 
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap'); 
+ 
+  @import url('https://fonts.googleapis.com/css2?family=Heebo&family=Montserrat+Alternates&display=swap'); 
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+  
+  body {
+    /* background-color: #330033; */
+    background-color: #c3c3c350;
+    
+     font-family: Montserrat Alternates; 
+    
+    }
+    
+    .outlet{
+      padding-top: 70px;
+      transition: 1s all;
+    }
+   
+    .dropdown-menu.show {
+      margin-top: 15px;
+      padding: 2px;
+    }
+
+ .navbar-collapse {
+  display: block;
+ }
+ 
+
+
+
+
+.loading{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  
+}
+
+a , a:hover{
+  color: white;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .outlet {
+    padding-left:  1rem !important;
+    padding-right:  1rem !important;
+     }
+}
+@media (max-width: 1024px) {
+  body {
+    padding-left: 0px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Neucha&family=Roboto+Mono&display=swap');
+
+.authBackground {
+    position: relative;
+    width: 100%;
+    height : 100vh;
+    max-height: 100vh;
+    background-position:center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    background: url('./assets/svg/back2.svg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: auto;
+  }
+  @media only screen and (max-width:1000px) {
+    .authBackground{
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    }
+   
+}
+
+
+
+
+
